@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BackgroundOperations</string>
+
+    <string name="txt_service">Service</string>
+    <string name="txt_thread">Thread</string>
+    <string name="text_asyn_task">AsynTask</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="contact_fetched">Contacts fetched successfully!!</string>
+    <string name="no_contacts">No Contact Found</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="update">Update</string>
+    <string name="hint_test">Type for Testing Thread</string>
+</resources>
