@@ -14,11 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity
-            android:name="com.back_ground_operations.activity.SplashActivity"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden"
-            tools:ignore="LockedOrientationActivity">
+        <activity android:name=".TestingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,12 +23,18 @@
         </activity>
 
         <activity
-            android:name="com.back_ground_operations.activity.MainActivity"
+            android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden"
             tools:ignore="LockedOrientationActivity" />
 
-        <service android:name="com.back_ground_operations.utils.MyService" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service android:name=".utils.MyService" />
 
     </application>
 
